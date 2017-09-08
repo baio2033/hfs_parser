@@ -152,8 +152,8 @@ print "\n\t2. print everything\n"
 d = raw_input('>')
 
 for i in range(node[4]):
-	print "\n#########################################"
-	print "[+] ",i," th record in root node\n"
+	print "\n==================================================================="
+	print "[+] ",i," th record in root node"
 	_record_type(node[2],rootnode_offset,i,d)
-	print "\n#########################################"
+	print "==================================================================="
 
